@@ -1,6 +1,6 @@
 html,
 body {
-	height: 50%;
+	height: 100%;
 }
 
 body {
@@ -15,14 +15,14 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	 width: 50%;
+    width: 50%;
     height: 50%;
 }
 
 table {
-	width: 100%;
+	width: 50%;
 	border-collapse: collapse;
-        overflow:hidden;
+	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
@@ -84,10 +84,10 @@ tbody {
     border:none;
     text-transform: uppercase;
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 300px) {
     /* horizontal scrollbar for tables if mobile screen */
     .tablemobile {
         overflow-x: auto;
-        display: block;
+        display: auto;
     }
 }
